@@ -103,5 +103,7 @@ int main(int argc, char** argv)
         ros::spinOnce();
     }
 
+    printf("break out\n");
+
     return 0;
 }
