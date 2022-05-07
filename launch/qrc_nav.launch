@@ -1,0 +1,4 @@
+<launch>
+  <node pkg="qrc_nav" name="qrc_nav" type="qrc_nav" output="screen"/>
+  		　<rosparam file="$(find qrc_nav)/param/tablegoal.yaml"/>
+</launch>
